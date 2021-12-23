@@ -1,3 +1,17 @@
+###############################################################################
+# Name: 
+#   PoleVector
+#
+# Description: 
+#    this code find pole vector place and create a locator . later you can polevectorconstraint thist locator with ikhandle .
+#    
+#
+# Author: 
+#   Ahmadreza Rezaei
+#
+# Copyright (C) 2022 Ahmadreza Rezaei. All rights reserved.
+###############################################################################
+
 import maya.cmds as cmds
 import maya.OpenMayaUI as omui
 import maya.OpenMaya as om
@@ -183,3 +197,4 @@ if __name__ == "__main__":
     dialog = creaLEdialog()
     dialog.show()
     
+
